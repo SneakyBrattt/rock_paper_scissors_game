@@ -14,25 +14,25 @@
 
     <div class="choice">
         <div id="rock">
-            <button ><img src="./images/stone.png" alt=""></button>
+            <button onclick="choice_fun(this.value)" value="rock"><img src="./images/stone.png" alt=""></button>
             <p>Rock</p>
         </div>
         <div id="paper">
-            <button><img src="./images/paper.png" alt=""></button>
+            <button onclick="choice_fun(this.value)" value="paper"><img src="./images/paper.png" alt=""></button>
             <p>Paper</p>
             
         </div>
         <div id="scissor">
-            <button><img src="./images/scissors.png" alt=""></button>
+            <button onclick="choice_fun(this.value)" value="scissor"><img src="./images/scissors.png" alt=""></button>
             <p>Scissor</p>
         </div>
     </div>
 
     <div class="score-board">
-        <div id="you">
+        <div id="human_score">
             Your score :
         </div>
-        <div id="comp" >
+        <div id="comp_score" >
             computer score : 
         </div>
     </div>
@@ -42,7 +42,7 @@
         <script>
         document.write(new Date().getFullYear())    
         </script>
-        dr-bandit
+        SneakyBratt
     </footer>
 </body>
 </html>
